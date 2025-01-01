@@ -1,0 +1,16 @@
+Open Docker Desktop
+
+root@KAC: docker pull sillyfreak/wombat-cross
+
+root@KAC:~/develop$ rm -r *
+
+root@KAC: sudo cp -r gyro/* develop/
+
+root@KAC:~/develop$ docker run -it --rm --volume ./develop:/home/kipr:rw sillyfreak/wombat-cross \
+  aarch64-linux-gnu-gcc -Wall main.c i2cHeaders.c movement.c mpu9250.c -lkipr -lm -o main -lz -lpthread
+
+just ssh onto the wombat and run from there with the Spring
+ssh kipr@192.168.125.1 (pass is botball)
+
+be sure to scp it over
+root@KAC:scp main kipr@192.168.125.1:/home/kipr/Documents/KISS/test/hmm/bin

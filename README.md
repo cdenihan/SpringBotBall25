@@ -48,5 +48,7 @@ This is a **great** idea for first-time programmers, but if you have a lick of e
 
 ## 🕹️ Programming Cont.
 
-BotBall in the whole is an autonomous robotics program, where once the lights are on, hands are off! This means that we need to implement _proper_ use of the built in MPU 9250, a 9-axis sensor that contains a gyroscope, accelerometer, and gyrometer. We will use all three in our robots, but you'll need to figure out the semantics yourself (can't be giving out answers). This will all be combined with a complementary filter (or Kalman if you know what you're doing) to give us accurate rotational positioning. Combined with PID controls, we will know exactly where the robot is and what orientation on the board. Of course, the robot that I will be using will be Gary, which has 4 mecanum wheels instead of the other form of 2025 robot (2 lego wheels and a roller ball). 
+BotBall in the whole is an autonomous robotics program, where once the lights are on, hands are off! This means that we need to implement _proper_ use of the built-in MPU 9250, a 9-axis sensor that contains a gyroscope, accelerometer, and gyrometer. We will use all three in our robots, but you'll need to figure out the semantics yourself (can't be giving out answers).
+
+Now that you have the basic information, head over to ```SpringBotBall25/CodeDocumentation/Beginners.md``` to learn about all of this!
 

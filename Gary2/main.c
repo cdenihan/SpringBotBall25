@@ -8,6 +8,11 @@ void signal_handler(int signum) {
 }
 
 int main() {
+    printf("debug 1\n");
+    printf("debug 2\n");
+    printf("debug 3\n");
+    printf("debug 4\n");
+    msleep(50000);
     // Set up signal handler for clean shutdown
     signal(SIGINT, signal_handler);
 

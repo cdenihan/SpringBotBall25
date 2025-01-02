@@ -46,6 +46,22 @@ Now you've reached the part where it is better to have coding experience. For Bo
 
 This is a **great** idea for first-time programmers, but if you have a lick of experience it can get a bit clunky. Last year at GCER there was a paper explaining [(Read Here!)](https://www.kipr.org/wp-content/uploads/2024/08/Usage_of_Modern_IDEs_for_Developing_Robotics_Applications.pdf) the benefits of compiling on the computer and then running on the wombat. It was then elevated (in the same paper) the benefits of debugging with a GDB server. More on this will be explained how to apply it further down. 
 
+# KIPR Modules Included
+  - `with_accel` (default: `OFF`) - Build accelerometer support.
+  - `with_analog` (default: `ON`) - Build analog sensor support.
+  - `with_battery` (default: `ON`) - Build battery support.
+  - `with_botball` (default: `ON`) - Build botball support.
+  - `with_compass` (default: `OFF`) - Build compass support.
+  - `with_console` (default: `ON`) - Build console support.
+  - `with_digital` (default: `ON`) - Build digital sensor support.
+  - `with_gyro` (default: `OFF`) - Build gyroscope support.
+  - `with_motor` (default: `ON`) - Build motor support.
+  - `with_network` (default: `ON`) - Build network support.
+  - `with_servo` (default: `ON`) - Build servo support.
+  - `with_thread` (default: `ON`) - Build thread support.
+  - `with_time` (default: `ON`) - Build time support.
+  - `with_wait_for` (default: `ON`) - Build wait_for support.
+
 ## 🕹️ Programming Cont.
 
 BotBall in the whole is an autonomous robotics program, where once the lights are on, hands are off! This means that we need to implement _proper_ use of the built-in MPU 9250, a 9-axis sensor that contains a gyroscope, accelerometer, and gyrometer. We will use all three in our robots, but you'll need to figure out the semantics yourself (can't be giving out answers).

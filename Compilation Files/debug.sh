@@ -9,3 +9,5 @@ target extended-remote 192.168.125.1:5555
 set remote exec-file /home/kipr/Documents/KISS/test/hmm/bin/botball_user_program
 file /home/aubrey/execution/botball_user_program
 start
+
+exit 0

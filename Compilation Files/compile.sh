@@ -8,3 +8,5 @@ sudo cp botball_user_program ../execution
 sudo rm -r *
 cd ..
 echo "Compiled sucessfully!"
+
+exit 0

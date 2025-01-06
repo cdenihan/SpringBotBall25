@@ -1,0 +1,1 @@
+https://www.nxp.com/docs/en/application-note/AN4246.pdf

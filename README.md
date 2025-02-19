@@ -29,7 +29,7 @@ Experience with these will make your lives easier, but are not required! They wi
 
 ## 🎤 Communication
 
-Of course, the biggest part of any project is ample amounts of communication. Things such as Discord, Github, and Google Drive helped our team make sure that we can give each other proper information to do our seperate parts. 
+Of course, the biggest part of any project is ample amounts of communication. Things such as Discord, GitHub, and Google Drive helped our team make sure that we can give each other proper information to do our seperate parts. 
 
 ## 🌐 Useful Links
 
